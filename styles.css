@@ -1,0 +1,17 @@
+.jayden-section{
+    background-color:rgb(201, 154, 121);
+    border:38px blue;
+    margin:29px;
+    border-radius:200px;
+
+}
+.jayden-h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:brown;
+}
+.jayden-p{
+    color: blueviolet;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
