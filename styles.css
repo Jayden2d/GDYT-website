@@ -8,10 +8,23 @@
 .jayden-h1{
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:brown;
+    color:rgb(136, 94, 94);
 }
 .jayden-p{
     color: blueviolet;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.jayden-button{
+    background-color: blue;
+    color:white;
+    border-radius: 20px;
+    padding: 48px;
+
+}
+
+.jayden-button:hover{
+    cursor: pointer;
+    background-color: darkkhaki;
 }
