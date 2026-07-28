@@ -1,30 +1,21 @@
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Home from './Home'
+import Cards from './cards'
 
 function App() {
-
-
   return (
     <>
       <Navbar />
-      <div className="banner">
-        <h1>placeholder</h1>
-      </div>
 
-      <div className="main">
-        <h1>
-          trading cards & games, posters and more
-        </h1>
-        <p style={{color: 'black'}}>
-          Selling and trading 
-        </p>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cards" element={<Cards />} />
+      </Routes>
 
       <Footer />
-      
-
-
     </>
   )
 }

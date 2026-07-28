@@ -1,12 +1,12 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 
 function Cards(){
     return(
         <>
-          <Navbar />
+          <h1>cards</h1>
 
         </>
     )
 }
+
+export default Cards
