@@ -1,3 +1,5 @@
+import ProductCrad from "./components/ProductCard"
+
 function Home() {
   return (
     <>
@@ -12,6 +14,14 @@ function Home() {
         <p style={{color: 'black'}}>
           Selling and trading
         </p>
+        
+      </div>
+      <ProductCrad />
+      <div className="main">
+        <div className="content">
+          <ProductCrad />
+          <ProductCrad />
+        </div>
       </div>
     </>
   )

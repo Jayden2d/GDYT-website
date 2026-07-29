@@ -42,3 +42,20 @@ footer{
   border-radius: 56px;
   margin: 20px;
 }
+
+.product-card-body{
+  background-color: rgb(39, 172, 39);
+  border-radius: 12px;
+  padding-top: 260px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-bottom: 16px;
+  width: 250px;
+
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
