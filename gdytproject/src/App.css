@@ -1,17 +1,17 @@
 nav{
   padding: 2px 12px;
   margin: 5px 18;
-  background-color: rgb(173, 69, 173);
+  background-color: var(--navbar-color);
 }
 nav a {
-  color: black;
+  color: var(--link-text-color);
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover{                                      
-  color:blue;
-  text-decoration:underline;
+  color:var(--text-color);
+  text-decoration: underline;
 }
 
 .nav-links {
@@ -24,19 +24,19 @@ nav a:hover{
 footer{
   margin-top: 60px;
   padding: 16px;
-  background-color: blueviolet;
+  background-color:var(--product-card-color);
   font-size: 12px;
-  color:darkorange;
+  color: var(--navbar-color);
 }
 
 .main{
   margin: 16px;
-  background-color: crimson;
+  background-color: var(--content-color);
   border-radius: 34px;
 }
 
 .banner{
-  background-color: blue;
+  background-color: var(--background-color);
   padding: 40px 20px;
   text-align: center;
   border-radius: 56px;
@@ -44,18 +44,51 @@ footer{
 }
 
 .product-card-body{
-  background-color: rgb(39, 172, 39);
+  background-color: var(--background-color);
   border-radius: 12px;
-  padding-top: 260px;
+  padding-top: 32px;
   padding-left: 13px;
   padding-right: 13px;
   padding-bottom: 16px;
   width: 250px;
+  gap: 16px;
 
 }
-
+.product-card {
+  gap: 16px;
+  padding: 16px;
+}
 .content{
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin: 16px;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  border-radius: 8px;
+}
+
+:root{
+  --background-color:#E0AAFF;
+  --content-color:#C77DFF;
+  --navbar-color:#9D4EDD;
+  --text-color:#7B2CBF;
+  --product-card-color:#5A189A;
+  --link-text-color:#3C096C;
+}
+
+.product-card-title{
+  color: var(--text-color);
+}
+
+.product-card-discription{
+  color: var(--link-text-color)
+}
+
+.product-card-price{
+  color: var(--product-card-color)
+}
+
+a{
+  text-decoration: none;
 }

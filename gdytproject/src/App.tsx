@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './Home'
 import Cards from './cards'
-import ProductCrad from './components/ProductCard'
+import ProductCard from './components/ProductCard'
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </>
+      </>
   )
 }
 

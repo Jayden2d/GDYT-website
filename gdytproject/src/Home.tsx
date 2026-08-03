@@ -1,4 +1,4 @@
-import ProductCrad from "./components/ProductCard"
+import ProductCard from "./components/ProductCard"
 
 function Home() {
   return (
@@ -16,11 +16,10 @@ function Home() {
         </p>
         
       </div>
-      <ProductCrad />
       <div className="main">
         <div className="content">
-          <ProductCrad />
-          <ProductCrad />
+          <ProductCard />
+          <ProductCard />
         </div>
       </div>
     </>
