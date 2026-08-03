@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './Home'
 import Cards from './cards'
+import Hats from './hats'
 import ProductCard from './components/ProductCard'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/hats" element={<Hats />} />
         <Route path="/cards" element={<Cards />} />
       </Routes>
 

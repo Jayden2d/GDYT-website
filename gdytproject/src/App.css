@@ -33,6 +33,7 @@ footer{
   margin: 16px;
   background-color: var(--content-color);
   border-radius: 34px;
+  line-height: 1.2;
 }
 
 .banner{
@@ -91,4 +92,15 @@ footer{
 
 a{
   text-decoration: none;
+}
+
+.footer-list a{
+  color:#C77DFF;
+}
+
+.footer-list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
 }
