@@ -1,4 +1,6 @@
 import ProductCard from "./components/ProductCard"
+import { Link } from 'react-router-dom'
+
 
 function Home() {
   return (
@@ -11,11 +13,9 @@ function Home() {
         <p style={{color: 'black'}}>
           Selling and trading
         </p>
-        <a href="" className="banner-button">
+        <Link to="" className="banner-button">
           shop now
-        
-        </a>
-        
+        </Link>
       </div>
 
       <div className="main">
