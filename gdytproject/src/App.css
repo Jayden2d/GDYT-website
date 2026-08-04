@@ -38,6 +38,8 @@ footer{
 
 .banner{
   background-color: var(--background-color);
+  background-image: url("./assets/gdyt banner.png");
+  background-size: cover;
   padding: 40px 20px;
   text-align: center;
   border-radius: 56px;
@@ -103,4 +105,13 @@ a{
   display: flex;
   flex-direction: row;
   gap: 4rem;
+}
+
+.banner-button{
+  background-color: var(--navbar-color);
+  border-radius: 32px;
+  display: inline-block;
+  padding: 4px 8px;
+  color: var(--text-color);
+  margin: 10px;
 }
